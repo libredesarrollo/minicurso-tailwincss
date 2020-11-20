@@ -1,0 +1,74 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.btn{
+    @apply py-2 px-4 rounded transition duration-500 ease-in 
+}
+.btn-blue{
+    @apply bg-blue-400 text-white
+}
+
+.btn-blue:hover {
+    @apply bg-blue-800
+}
+
+.btn-red{
+    @apply btn bg-red-400 text-white;
+    font-weight: bold
+}
+
+.btn-red:hover {
+    @apply bg-red-800
+}
+
+
+.alert{
+    @apply  border p-3
+}
+
+.alert strong {
+    @apply font-bold
+}
+
+.alert span {
+    @apply block
+}
+
+.alert-danger {
+    @apply bg-red-100 border-red-700 text-red-700 
+}
+.alert-warning {
+    @apply alert bg-yellow-100 border-yellow-700 text-yellow-700 
+}
+.alert-info {
+    @apply alert bg-blue-100 border-blue-700 text-blue-700 
+}
+.alert-success {
+    @apply alert bg-green-100 border-green-700 text-green-700 
+}
+
+.card {
+    @apply w-full bg-white mt-6 shadow-md rounded-lg
+}
+
+.card .card-header {
+    @apply border-b border-gray-200 px-4 pt-2 pb-3
+}
+
+.card h3{
+    @apply text-sm font-medium text-gray-900
+}
+
+.card h4{
+    @apply text-sm font-light text-gray-700
+}
+
+.card .card-body {
+    @apply px-6 py-4
+}
+
+
+

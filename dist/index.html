@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+
+    <div class="container">
+        <!-- button component -->
+        <button
+            class="transition duration-500 ease-in bg-blue-400 hover:bg-blue-800 text-white py-2 px-4 rounded sm:bg-red-500 lg:bg-yellow-500">Botón
+            azul</button>
+
+        <button class="btn btn-blue">Botón Reutilizable</button>
+
+        <br><br>
+
+        <button class="btn-red sm:w-full">Botón Rojo</button>
+
+        <!-- alert component -->
+        <br><br>
+        <div class="bg-red-100 border border-red-700 text-red-700 p-3 sm:rounded">
+            <strong class="font-bold">Alerta!</strong>
+            <span class="block sm:inline">Te han hackeado!</span>
+        </div>
+        <br>
+
+        <div class="alert alert-danger sm:rounded">
+            <strong>Alerta!</strong>
+            <span>Te han hackeado!</span>
+        </div>
+
+        <div class="alert-warning mt-2">
+            <strong>Alerta!</strong>
+            <span>Te han hackeado!</span>
+        </div>
+        <div class="alert-info mt-2">
+            <strong>Alerta!</strong>
+            <span>Te han hackeado!</span>
+        </div>
+        <div class="alert-success mt-2">
+            <strong>Alerta!</strong>
+            <span>Te han hackeado!</span>
+        </div>
+
+        <!-- carta -->
+
+        <div class="bg-black mt-3 rounded-t-md">
+            <img class="rounded-lg w-full h-20 object-cover" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+
+            <div class="w-full bg-white shadow-md sm:rounded-lg">
+                <div class=" border-b border-gray-200 px-4 pt-2 pb-3">
+                    <h3 class=" text-lg font-medium text-gray-900 mb-1">Titulo</h3>
+                    <h4 class="text-sm font-light text-gray-700">Subtitulo</h4>
+                </div>
+
+                <div class="px-6 py-4">
+                    <p class="text-sm font-medium text-gray-900">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ea sunt debitis molestiae voluptas, pariatur repudiandae, ad, possimus animi odio fugit. Ratione, repudiandae ea sunt adipisci repellat recusandae aperiam illo.</p>
+                    <p class="text-sm font-medium text-gray-900 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ea sunt debitis molestiae voluptas, pariatur repudiandae, ad, possimus animi odio fugit. Ratione, repudiandae ea sunt adipisci repellat recusandae aperiam illo.</p>
+                    <p class="text-sm font-medium text-gray-900 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ea sunt debitis molestiae voluptas, pariatur repudiandae, ad, possimus animi odio fugit. Ratione, repudiandae ea sunt adipisci repellat recusandae aperiam illo.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h3>Titulo</h3>
+                <h4>Subtitulo</h4>
+            </div>
+
+            <div class="card-body">
+                <h3>Titulo</h3>
+
+                <p class="text-sm font-medium text-gray-900">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ea sunt debitis molestiae voluptas, pariatur repudiandae, ad, possimus animi odio fugit. Ratione, repudiandae ea sunt adipisci repellat recusandae aperiam illo.</p>
+                <p class="text-sm font-medium text-gray-900 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ea sunt debitis molestiae voluptas, pariatur repudiandae, ad, possimus animi odio fugit. Ratione, repudiandae ea sunt adipisci repellat recusandae aperiam illo.</p>
+                <p class="text-sm font-medium text-gray-900 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ea sunt debitis molestiae voluptas, pariatur repudiandae, ad, possimus animi odio fugit. Ratione, repudiandae ea sunt adipisci repellat recusandae aperiam illo.</p>
+            </div>
+        </div>
+
+        <!-- img -->
+
+        <img class="rounded-lg w-full mt-2" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+        <img class="rounded-t-lg w-full mt-2" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+        <img class="rounded-tl-lg rounded-tr-lg  w-full mt-2" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+        <img class="rounded-b-lg w-full mt-2" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+        <img class="rounded-bl-lg rounded-br-lg  w-full mt-2" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+
+    </div>
+
+    <div class="tip card max-w-sm  m-auto">
+        <div class="card-body lg:flex">
+            <svg class="lg:w-12 lg:h-12 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+            <img class="hidden w-12 h-12 flex-shrink-0" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+            <div class="lg:ml-3">
+                <h5 class="text-xl text-gray-900">Título</h5>
+                <p class="text-md text-gray-500">Contenido de relleno</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-flex card max-w-lg m-auto">
+        <div class="card-body lg:flex">
+            <img class="lg:w-64 rounded flex-shrink-0" src="https://cdn.pixabay.com/photo/2020/10/11/10/00/waterfalls-5645361_960_720.jpg" />
+            <div class="lg:ml-3 mt-3">
+                <h5 class="text-xl text-gray-900 uppercase mb-3">Título</h5>
+                <p class="text-md text-gray-700 text-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus nisi sit odio! Iusto mollitia odit totam.</p>
+            </div>
+        </div>
+    </div>
+
+
+<br><br>
+
+</body>
+
+</html>
